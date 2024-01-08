@@ -1,15 +1,24 @@
-#   We use it to generate a sequence of numbers
-#numbers = range(6) # numbers = range(6, 10) specified range
+# Range_function
+# a = range(2,15, 3) #This skips 2 elements in the range 2-15
+#argument stepwise(x) range(1,15, x) cannot be zero
+# print(a[0])
 
-#print(numbers)
+# for i in a:
+    # print(i)
 
-#   We can use Iteration i.e for loop to print all the numbers in the range
-#for number in numbers:
-    #print(number)
+# A program to calculate the total from 1-100
+# count = 0
+# for i in range (1, 101):
+#     count +=i
+# print(count)
 
-numbers = range(5, 10, 2) #  This will skip after every 2 numbers
-for number in numbers:
-    print(number)
+total = 0
+for i in range (1, 101):
+    if i%2==0:
+        total +=i
+print(total)
 
-for number in range(5): # Short cut on how not to store a number
-    print(number)
+total =0
+for i in range(2,101, 2):
+    total +=i
+print(total)

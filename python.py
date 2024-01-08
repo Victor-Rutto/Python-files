@@ -1,4 +1,3 @@
-name = "Victor"
-name
+import math
 
-
+print(dir(math))
